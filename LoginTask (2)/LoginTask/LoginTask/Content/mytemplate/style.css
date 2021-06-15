@@ -1,0 +1,300 @@
+﻿@charset "UTF-8";
+
+@font-face {
+    font-family: 'AktivGrotesk';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../webfonts/AktivGroteskLight.eot');
+    src: url('../webfonts/AktivGroteskLight.eot') format('embedded-opentype'), url('../webfonts/AktivGroteskLight.woff2') format('woff2'), url('fonts/AktivGroteskLight.woff') format('woff'), url('../webfonts/AktivGroteskLight.ttf') format('truetype'), url('../webfonts/AktivGroteskLight.svg#AktivGroteskLight') format('svg');
+}
+
+@font-face {
+    font-family: 'AktivGrotesk';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../webfonts/AktivGroteskRegular.eot');
+    src: url('../webfonts/AktivGroteskRegular.eot') format('embedded-opentype'), url('../webfonts/AktivGroteskRegular.woff2') format('woff2'), url('../webfonts/AktivGroteskRegular.woff') format('woff'), url('../webfonts/AktivGroteskRegular.ttf') format('truetype'), url('../webfonts/AktivGroteskRegular.svg#AktivGroteskRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'AktivGrotesk';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../webfonts/AktivGroteskMedium.eot');
+    src: url('../webfonts/AktivGroteskMedium.eot') format('embedded-opentype'), url('../webfonts/AktivGroteskMedium.woff2') format('woff2'), url('../webfonts/AktivGroteskMedium.woff') format('woff'), url('../webfonts/AktivGroteskMedium.ttf') format('truetype'), url('../webfonts/AktivGroteskMedium.svg#AktivGroteskMedium') format('svg');
+}
+
+@font-face {
+    font-family: 'AktivGrotesk';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../webfonts/AktivGroteskBold.eot');
+    src: url('../webfonts/AktivGroteskBold.eot') format('embedded-opentype'), url('../webfonts/AktivGroteskBold.woff2') format('woff2'), url('../webfonts/AktivGroteskBold.woff') format('woff'), url('../webfonts/AktivGroteskBold.ttf') format('truetype'), url('../webfonts/AktivGroteskBold.svg#AktivGroteskBold') format('svg');
+}
+
+* {
+    outline: none !important;
+}
+
+body {
+    margin: 0 auto;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #242424;
+    background-color: white;
+    font-family: "AktivGrotesk", sans-serif;
+}
+
+main {
+    min-height: calc(100vh - 130px);
+}
+
+.cp {
+    cursor: pointer;
+}
+
+.align-super {
+    vertical-align: super;
+}
+
+.df {
+    display: flex;
+}
+
+.aic {
+    align-items: center;
+}
+
+.jcb {
+    justify-content: space-between;
+}
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: #f4f4f4;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #cccccc;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+    /* Handle on hover */
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #999999;
+    }
+
+.br-5 {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.pl-40 {
+    padding-left: 40px;
+}
+
+h4.project-name {
+    font-size: 28px;
+    background: -webkit-linear-gradient(#0099FF, #3a47d5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h5 .align-super {
+    text-transform: uppercase;
+    color: #FF6A00;
+}
+
+.tab-pane h5 {
+    color: #054D7D;
+}
+
+hr {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+.f-14 {
+    font-size: 14px;
+}
+
+.f-17 {
+    font-size: 17px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.text-blue {
+    color: #0099ff !important;
+}
+
+.text-center {
+    text-align: center;
+}
+
+footer {
+    height: 40px;
+    text-align: center;
+    background: white;
+    /* box-shadow: 0 -3px 6px rgb(0 0 0 / 16%); */
+}
+
+    footer p {
+        color: #0099FF;
+        margin: 0;
+        padding: 8px 0;
+    }
+
+.border,
+.border-bottom,
+.border-top {
+    border-color: #CCCCCC;
+}
+
+.bg-gradient-brand {
+    background: linear-gradient(90deg, #0099FF 0%, #3a47d5 100%);
+}
+
+.bg-header {
+    background-color: #f6f6f6;
+}
+
+header {
+    background-color: white;
+    padding: 15px;
+}
+
+div.bg-white.br-5 {
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+    padding: 12px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    font-weight: 500;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+    .btn.disabled,
+    .btn:disabled {
+        opacity: .65;
+    }
+
+.btn-outline-blue {
+    border: 1px solid #0099FF;
+    background-color: white;
+    color: #0099FF;
+}
+
+    .btn-outline-blue:hover {
+        border-color: #005c99;
+        background-color: white;
+        color: #005c99;
+    }
+
+        .btn-outline-blue:hover span {
+            text-decoration: underline;
+        }
+
+        .btn-outline-blue:hover svg {
+            stroke: #005c99;
+        }
+
+.btn-outline-fill-blue:hover {
+    background-color: #0099FF;
+    color: white;
+}
+
+    .btn-outline-fill-blue:hover svg {
+        stroke: #ffffff;
+    }
+
+.cus-input {
+    padding: .25rem .5rem;
+    height: calc(1em + .25rem + 2px);
+    font-weight: 400;
+    margin-bottom: 6px;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border-radius: .25rem;
+    min-width: 200px;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.cus-input-file {
+    height: auto;
+}
+
+.shadow-cus {
+    box-shadow: 0 3.2px 7.2px 0 rgba(0, 0, 0, .132), 0 .6px 1.8px 0 rgba(0, 0, 0, .108);
+}
+
+.br-4 {
+    border-radius: 4px;
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+.label-250 {
+    width: 250px;
+    margin-right: 12px;
+    margin-bottom: 8px;
+}
